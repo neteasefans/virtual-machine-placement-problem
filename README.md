@@ -2,6 +2,8 @@
 
 The benchmark instances used in our draft titled with "An iterated local search for virtual machine placement problem" were friendly provided in the PACO-VMP literature [refer to [3]]. The source code of the proposed ILS algorithm will be made available upon the publication of the paper.
 
+The optimal solution certificates are given in 'solutions' directory.
+
 Reference papers to the virtual machine placement problem (VMP):
 
 [1].Xiao-Fang Liu, Zhi-Hui Zhan, Jeremiah D Deng, Yun Li, Tianlong Gu, and Jun Zhang. An Energy Efficient Ant Colony System for Virtual Machine Placement in Cloud Computing.
