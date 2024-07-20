@@ -1,4 +1,4 @@
-# virtual-machine-placement-problem
+# An iterated local search for virtual machine placement problem
 
 The 1800 benchmark instances used in our draft titled with "An iterated local search for virtual machine placement problem" were friendly provided in the PACO-VMP literature [refer to [3]]. To facilitate the further research, we upload the instances here. 
 
