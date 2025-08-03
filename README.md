@@ -4,7 +4,7 @@ The 1800 benchmark instances used in our draft titled with "An iterated local se
 
 The optimal solution certificates are given in 'solutions' directory.
 
-The source code of the proposed ILS algorithm will be made available upon the publication of the paper.
+The source code given in 'src' directory implements the proposed method described in our paper.
 
 Reference papers to the virtual machine placement problem (VMP):
 
