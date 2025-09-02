@@ -1,4 +1,3 @@
-package vmpproblem;
 
 import java.io.*;
 import java.math.BigDecimal;
@@ -178,8 +177,8 @@ public class LocalSearch {
 //					System.out.println("The  " + iter + "-th iteration get the lower bound :" + totalBest);
 				}else if(timeout == true){
 //					System.out.println("Timeout:" + maxRunningTime);
-//					System.out.println("totalBest£º" + totalBest);
-//					System.out.println("lowerBound£º" + lowerBound);								
+//					System.out.println("totalBestÂ£Âº" + totalBest);
+//					System.out.println("lowerBoundÂ£Âº" + lowerBound);								
 					timeout = false;
 				}else{
 //					notReachedNum += 1;
@@ -207,8 +206,8 @@ public class LocalSearch {
         bd = bd.setScale(4, RoundingMode.HALF_UP);
         averSQ = bd.doubleValue();   
 
-//		System.out.println("average execution time £º" + averTime + "ms");
-//		System.out.println("average solution quality £º" + averSQ + "%");
+//		System.out.println("average execution time Â£Âº" + averTime + "ms");
+//		System.out.println("average solution quality Â£Âº" + averSQ + "%");
 //		System.out.println();
 				
 	}
@@ -650,7 +649,7 @@ public class LocalSearch {
 		int pm1 = index[2];
 		int pm2 = index[3];
 
-		//½»»»¹ý³Ì
+		//Â½Â»Â»Â»Â¹Ã½Â³ÃŒ
 		temp = pm1;
 		vm[indexLeft].pmAssignedTo = pm2;
 		vm[indexRight].pmAssignedTo = temp;
@@ -778,4 +777,5 @@ public class LocalSearch {
 
 		iter = iter + 1;		
 	}
+
 }
