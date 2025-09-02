@@ -4,7 +4,21 @@ The 1800 benchmark instances used in our draft titled with "An iterated local se
 
 The optimal solution certificates are given in 'solutions' directory.
 
-The source code given in 'src' directory implements the proposed method described in our paper.
+The source code given in 'src' directory implements the proposed CCILS method described in our paper.
+
+** Instructions to use the source code of CCILS
+
+*** To compile:
+
+q.zhou$ javac LocalSearch.java PM.java VM.java
+
+q.zhou$
+
+*** To run: 
+
+q.zhou$ java -cp . LocalSearch Instances
+
+(where -cp . indicates the current working directory, LocalSearch includes the main function, and Instances is the instance directory.)
 
 Reference papers to the virtual machine placement problem (VMP):
 
